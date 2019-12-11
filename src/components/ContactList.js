@@ -8,7 +8,7 @@ const ContactList = props => {
                 <Contact
                     name={contact.name} 
                     avatar={contact.avatar} 
-                    online = {contact.online}
+                    status = {contact.status}
                 />
             )
             }
